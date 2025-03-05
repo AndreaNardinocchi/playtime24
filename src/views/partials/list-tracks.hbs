@@ -1,0 +1,35 @@
+<table class="table is-fullwidth">
+  <thead>
+    <tr>
+      <th>Track</th>
+      <th>Artist</th>
+      <th>Duration</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Each track will be shown here -->
+    {{#each playlist.tracks}}
+      <tr>
+        <td>
+          {{title}}
+        </td>
+        <td>
+          {{artist}}
+        </td>
+        <td>
+          {{duration}}
+        </td>
+        <td>
+          <!-- Since we are inside the track env, we need to go up of one level to its parent playlist,
+          that is why we use the {{../playlist._id}}-->
+        <a href="/playlist/{{../playlist._id}}/deletetrack/{{_id}}" class="button">
+        <span class="icon is-small">
+          <i class="fas fa-solid fa-trash"></i>
+        </span>
+        </a>
+      </td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>

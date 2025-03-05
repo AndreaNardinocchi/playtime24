@@ -1,0 +1,32 @@
+{
+  "users": [],
+  "playlists": [
+    {
+      "title": "Beethoven Favourites",
+      "_id": "42a59220-f8d6-42c9-bfad-5bf72add7fdb"
+    }
+  ],
+  "tracks": [
+    {
+      "title": "Piano Sonata No. 3",
+      "artist": "Beethoven",
+      "duration": 5,
+      "_id": "20e9877d-1a64-4825-a72d-05d4136d074e",
+      "playlistid": "42a59220-f8d6-42c9-bfad-5bf72add7fdb"
+    },
+    {
+      "title": "Piano Sonata No. 7",
+      "artist": "Beethoven",
+      "duration": 6,
+      "_id": "6a70f943-a5e4-4367-b1b9-1009f552c1fa",
+      "playlistid": "42a59220-f8d6-42c9-bfad-5bf72add7fdb"
+    },
+    {
+      "title": "Piano Sonata No. 10",
+      "artist": "Beethoven",
+      "duration": 4,
+      "_id": "f0274795-eb6c-424d-9a90-a1c3c20d2928",
+      "playlistid": "42a59220-f8d6-42c9-bfad-5bf72add7fdb"
+    }
+  ]
+}
